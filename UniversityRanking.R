@@ -1,4 +1,4 @@
-#CS544 Final Project
+
 #Author: Archana Balachandran
 
 #Categorical Data Analysis
