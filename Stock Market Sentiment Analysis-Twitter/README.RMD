@@ -1,0 +1,11 @@
+Twitter is a social  networking and microblogging site that allows users to broadcast short burst messages to a world called ‘twitterverse’, by answering a simple question: “What’s happening?”.
+
+Text mining involves extraction of meaningful information from a large collection of unstructured text, extracted from various text mines. Text mining in the context of this project involves mining tweets from twitter on a particular stock and performing text processing on the extracted data.  
+
+Sentiment Analysis involves extracting opinions or sentiment from texts, which is then converted into a numeric index to determine the overall sentiment related to a particular subject.
+
+This project appreciates the fact that, Twitter, apart from being an excellent medium for real-time communication, is also a massive repository for conducting text analysis to extract public sentiment on a particular stock. 
+
+This project aims to derive a correlation between public sentiment and market sentiment from twitter data. That is, to observe whether computation of public behavior or collective mood, is related to stock market behavior. The project also points out the public response in the form of tweets to management decisions by companies that have affected their stock prices.
+
+The project scope does not include analysis of non-text information, such as emojis. It also does not involve analysis of links present within tweets. The text mined from Twitter indicates the public mood only based on the particular day of text extraction(April 21, 2017). 
