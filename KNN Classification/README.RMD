@@ -1,0 +1,12 @@
+
+Aim : To process and classify the newsgroup document data. The subjects sci.space and rec.autos were selected for analysis. East task, along with the solutions are presented below.
+
+
+Dataset Source:
+www.csail.mit.edu/~jrennie/20Newsgroups/
+
+Files:
+
+- knn_text_classification.R - contains the R code for classification process
+- freqwordcloud.png displays the word cloud obtained from the frequent words
+- Effectiveness_of_KNN_experiments.R - an extension to this project that measures and compares the accuracy, precision, recall and F-score of various text pre-processing experiments 
