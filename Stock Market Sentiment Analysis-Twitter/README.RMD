@@ -1,3 +1,5 @@
+INTRODUCTION
+
 Twitter is a social  networking and microblogging site that allows users to broadcast short burst messages to a world called ‘twitterverse’, by answering a simple question: “What’s happening?”.
 
 Text mining involves extraction of meaningful information from a large collection of unstructured text, extracted from various text mines. Text mining in the context of this project involves mining tweets from twitter on a particular stock and performing text processing on the extracted data.  
