@@ -24,29 +24,29 @@ At the programmer end, the application pauses for 5 seconds, and introduces the 
 - Python Elements Used:
 
 
-Element 1. Threads
+ - Element 1. Threads
 thread = Thread(target=get_url, args=(url_queue, url))
 thread.start()
 
-Element 2. Web Access
+ - Element 2. Web Access
 url_list = ["http://mmcs.edu.in/report1.html", "http://mmcs.edu.in/report2.html"]
 webbrowser.open_new(url)
 
 
-Element 3. Process
+ - Element 3. Process
 p = Process(target=f, args=('Admin',))
 print('Parent process:', os.getppid())
 print('Process id:', os.getpid())
 
-Element 4. Sleep function
+ - Element 4. Sleep function
 time.sleep(5)
 
 
-Files:
+- Files:
 
 
 
-GradeElectiveChanger.py
-SchoolEvalSys.py	
-StudentEval.py
-StudentReportingSys.py
+- GradeElectiveChanger.py
+- SchoolEvalSys.py	
+- StudentEval.py
+- StudentReportingSys.py
