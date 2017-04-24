@@ -1,6 +1,5 @@
  
---Classification of Class-imbalanced Dataset
---using Oversampling and Undersampling techniques
+Classification of Class-imbalanced Dataset using Oversampling and Undersampling techniques
  
  
  
