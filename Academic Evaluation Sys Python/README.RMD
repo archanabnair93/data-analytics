@@ -1,0 +1,52 @@
+# Performing Reporting System for Educational Institutions
+Tools: PyCharm
+Programming Language: Python
+
+Project Description:
+
+The application chosen for the purpose of this project is a Performance Reporting System for Educational Institutions which can be applied to both schools and universities. This is the third part of the project series, which implements multithreading and web access. This phase will focus on data at institution level, where the user can view the performance report of an educational institution, utilizing the Python UI elements. 
+
+
+Application Features:
+- Feature 1. View Multiple Reports at once
+As the application runs, the user is prompted to click ‘View Report’ button. On clicking the button, two threads are created which open two URLs and display two different reports in two tabs. 
+
+- Feature 2. Back-end Reporting
+In order for the IT department to view details of the background information of the application, the process details are displayed:
+
+- Feature 3. Smooth transition to web browser
+The user, on clicking ‘View Report’ is notified that they will be leaving the application and redirected, in order to ensure a smooth transition. 
+
+- Feature 4. Using sleep function to allow the user to be introduced to the application
+At the programmer end, the application pauses for 5 seconds, and introduces the tool by printing to the console, and then redirects to the application. 
+
+
+- Python Elements Used:
+
+
+Element 1. Threads
+thread = Thread(target=get_url, args=(url_queue, url))
+thread.start()
+
+Element 2. Web Access
+url_list = ["http://mmcs.edu.in/report1.html", "http://mmcs.edu.in/report2.html"]
+webbrowser.open_new(url)
+
+
+Element 3. Process
+p = Process(target=f, args=('Admin',))
+print('Parent process:', os.getppid())
+print('Process id:', os.getpid())
+
+Element 4. Sleep function
+time.sleep(5)
+
+
+Files:
+
+
+
+GradeElectiveChanger.py
+SchoolEvalSys.py	
+StudentEval.py
+StudentReportingSys.py
