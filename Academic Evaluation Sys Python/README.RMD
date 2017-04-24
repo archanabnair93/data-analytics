@@ -2,12 +2,12 @@
 Tools: PyCharm
 Programming Language: Python
 
-Project Description:
+------- Project Description:------- 
 
 The application chosen for the purpose of this project is a Performance Reporting System for Educational Institutions which can be applied to both schools and universities. This is the third part of the project series, which implements multithreading and web access. This phase will focus on data at institution level, where the user can view the performance report of an educational institution, utilizing the Python UI elements. 
 
 
-Application Features:
+------- Application Features:------- 
 - Feature 1. View Multiple Reports at once
 As the application runs, the user is prompted to click ‘View Report’ button. On clicking the button, two threads are created which open two URLs and display two different reports in two tabs. 
 
@@ -21,7 +21,7 @@ The user, on clicking ‘View Report’ is notified that they will be leaving th
 At the programmer end, the application pauses for 5 seconds, and introduces the tool by printing to the console, and then redirects to the application. 
 
 
-- Python Elements Used:
+------- Python Elements Used:------- 
 
 
  - Element 1. Threads
@@ -42,7 +42,7 @@ print('Process id:', os.getpid())
 time.sleep(5)
 
 
-- Files:
+----------- Files:------- 
 
 
 
