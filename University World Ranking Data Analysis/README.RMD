@@ -4,6 +4,8 @@ Author: Archana Balachandran
 
 Project Description:
 
+Objective: To Study the relationship between Confidence level, sample Confidence Intervals and Population mean. 
+
 The dataset World University Ranking was downloaded from Kaggle. The data selected is based on Shanghai Ranking, which is a powerful ranking method considering the important university measures for rank determination. The dataset was downloaded and viewed in Excel. 
  
 From the dataset containing a total of 4897 entries for rankings from 2005-2015, the top 100 universities in the year 2012 were selected. 
@@ -11,11 +13,16 @@ From the dataset containing a total of 4897 entries for rankings from 2005-2015,
  
 Some of the relevant columns in the dataset is described below:
 
-•	world_rank - world rank for university. Contains rank ranges and equal ranks (eg. 101-152).
-•	university_name - name of university.
-•	national_rank - rank of university within its country.
-•	score - total score, used to determine rank.
-•	alumni - Alumni Score, based on the number of alumni of an institution winning nobel prizes and fields medals.
-•	award - Award Score, based on the number of staff of an institution winning Nobel Prizes in Physics, Chemistry, Medicine, and Economics and Fields Medals in Mathematics.
-•	year - year of ranking (2012).
+-	world_rank - world rank for university. Contains rank ranges and equal ranks (eg. 101-152).
+-	university_name - name of university.
+-	national_rank - rank of university within its country.
+-	score - total score, used to determine rank.
+-	alumni - Alumni Score, based on the number of alumni of an institution winning nobel prizes and fields medals.
+-	award - Award Score, based on the number of staff of an institution winning Nobel Prizes in Physics, Chemistry, Medicine, and Economics and Fields Medals in Mathematics.
+- year - year of ranking (2012).
 
+
+
+Observation:
+- When confidence level is 80%, the sample confidence intervals that contain the population mean is 96%. 4 samples have confidence intervals which do not contain the population mean. 
+- When confidence level is 90%, the sample confidence intervals that contain the population mean is 100%. The confidence intervals of all samples contain the population mean. 
