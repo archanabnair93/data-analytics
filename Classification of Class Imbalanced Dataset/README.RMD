@@ -1,6 +1,10 @@
  
 Project Topic: Classification of Class-imbalanced Dataset using Oversampling and Undersampling techniques
+
 Tool: WEKA
+
+Author: Archana Balachandran
+
  
 Introduction:
 
@@ -11,9 +15,10 @@ The task is to build a model that predicts ‘yes’ tuples with high accuracy, 
 Most machine learning algorithms and works best when the number of instances of each classes are roughly equal.
 Two approaches identified to deal with class imbalance dataset by adjusting the class distribution of a dataset are cost function based approach and sampling approach. This project explores two of the popular sampling approaches –Oversampling and undersampling.
 
+Files in this repository:
 
-The project document file elaborately explains the process to build the classification model with high accuracy from a class imbalanced dataset.
+- Balachandran_Archana_Project_doc.pdf - This file elaborately explains the process to build the classification model with high accuracy from a class imbalanced dataset.
 
-The dataset.arff contains the input dataset
+- dataset.arff contains the input dataset
 
-best.model file contains the desired output - classification model. 
+- best.model file contains the desired output - classification model. 
