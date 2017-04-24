@@ -1,0 +1,219 @@
+-- Measuring the Effectiveness of KNN classification based on the Preprocessing steps Performed -- 
+
+
+Information: "Rec" considered Positive and "Sci" as Negative
+
+Classified As
+	-Rec (Positive)
+		  Actual Rec (TP)
+		  Sci classified as Rec (FP)
+	-Sci (Negative)
+		  Actual Sci (TN)
+		  Rec classified as Sci (FN)
+
+
+-- EXPERIMENTS --
+
+Experiment 1: No preprocessing
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are skipped, and Document Term Matrix is generated and inspected.
+4.	Document term matrix is explored
+5.	Sparse terms are removed
+6.	Document term matrix is then saved as a simple matrix
+7.	Splitting Document Term Matrix into training and testing datasets
+8.	Tags are created
+9.	KNN classification is performed
+10.	Confusion matrix is generated using AutoCM for verification purpose
+11.	Confusion matrix is then manually generated
+12.	Precision, Recall and f-score values are calculated and the values are stored in exp1result object
+
+Experiment 2: Without Removing sparse terms from DTM
+
+Steps:
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are skipped, and Document Term Matrix is generated and inspected.
+4.	Document term matrix is explored
+5.	Sparse terms are ignored
+6.	Document term matrix is then saved as a simple matrix
+7.	Splitting Document Term Matrix into training and testing datasets
+8.	Tags are created
+9.	KNN classification is performed 
+10.	Results of classification are analyzed and saved as ProbExp2
+11.	Confusion matrix is generated using AutoCM for verification purpose
+12.	Confusion matrix is then manually generated
+13.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+
+Experiment 3: Preprocessing, without removing stop words
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are performed, skipping stop word removal
+4.	Document Term Matrix is generated and inspected.
+5.	Document term matrix is explored
+6.	Spare terms are removed
+7.	Document term matrix is then saved as a simple matrix
+8.	Splitting Document Term Matrix into training and testing datasets
+9.	Tags are created
+10.	KNN classification is performed 
+11.	Results of classification are analyzed and saved as ProbExp2
+12.	Confusion matrix is generated using AutoCM for verification purpose
+13.	Confusion matrix is then manually generated
+14.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+Experiment 4: Preprocessing, with stop words removal
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are performed, including stop word removal
+4.	Document Term Matrix is generated and inspected.
+5.	Document term matrix is explored
+6.	Spare terms are removed
+7.	Document term matrix is then saved as a simple matrix
+8.	Splitting Document Term Matrix into training and testing datasets
+9.	Tags are created
+10.	KNN classification is performed 
+11.	Results of classification are analyzed and saved as ProbExp2
+12.	Confusion matrix is generated using AutoCM for verification purpose
+13.	Confusion matrix is then manually generated
+14.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+Experiment 5: Changing term frequency from 5 to 10
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are performed, including stop word removal
+4.	Document Term Matrix is generated with term frequency set to 10
+5.	Document term matrix is explored
+6.	Spare terms are removed
+7.	Document term matrix is then saved as a simple matrix
+8.	Splitting Document Term Matrix into training and testing datasets
+9.	Tags are created
+10.	KNN classification is performed 
+11.	Results of classification are analyzed and saved as ProbExp2
+12.	Confusion matrix is generated using AutoCM for verification purpose
+13.	Confusion matrix is then manually generated
+14.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+
+
+
+Experiment 6: Changing word length from 2 to 4
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are performed, including stop word removal
+4.	Document Term Matrix is generated with word length set to 4
+5.	Document term matrix is explored
+6.	Spare terms are removed
+7.	Document term matrix is then saved as a simple matrix
+8.	Splitting Document Term Matrix into training and testing datasets
+9.	Tags are created
+10.	KNN classification is performed 
+11.	Results of classification are analyzed and saved as ProbExp2
+12.	Confusion matrix is generated using AutoCM for verification purpose
+13.	Confusion matrix is then manually generated
+14.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+Experiment 7: Wordlength=4, Document frequency=10
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are performed, including stop word removal
+4.	Document Term Matrix is generated with word length set to 4 and document frequency as 10
+5.	Document term matrix is explored
+6.	Spare terms are removed
+7.	Document term matrix is then saved as a simple matrix
+8.	Splitting Document Term Matrix into training and testing datasets
+9.	Tags are created
+10.	KNN classification is performed 
+11.	Results of classification are analyzed and saved as ProbExp2
+12.	Confusion matrix is generated using AutoCM for verification purpose
+13.	Confusion matrix is then manually generated
+14.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+
+Experiment 8: Wordlength=4, Document frequency=20
+
+Steps:
+
+1.	The required libraries are loaded into the workspace
+2.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+3.	Preprocessing steps are performed, including stop word removal
+4.	Document Term Matrix is generated with word length set to 4 and document frequency as 20
+5.	Document term matrix is explored
+6.	Spare terms are removed
+7.	Document term matrix is then saved as a simple matrix
+8.	Splitting Document Term Matrix into training and testing datasets
+9.	Tags are created
+10.	KNN classification is performed 
+11.	Results of classification are analyzed and saved as ProbExp2
+12.	Confusion matrix is generated using AutoCM for verification purpose
+13.	Confusion matrix is then manually generated
+14.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+
+
+Experiment 9: Selecting different dataset range (59 to 199)
+
+1.	Steps:
+
+2.	The required libraries are loaded into the workspace
+3.	The corpus for 2 train document sets and 2 test document sets are created, and then merged
+4.	Preprocessing steps are performed, including stop word removal
+5.	Document Term Matrix is generated with word length set to 4 and document frequency as 20
+6.	Document term matrix is explored
+7.	Spare terms are removed
+8.	Document term matrix is then saved as a simple matrix
+9.	Splitting Document Term Matrix into training and testing datasets
+10.	Tags are created
+11.	KNN classification is performed 
+12.	Results of classification are analyzed and saved as ProbExp2
+13.	Confusion matrix is generated using AutoCM for verification purpose
+14.	Confusion matrix is then manually generated
+15.	Precision, Recall and f-score values are calculated and the values are stored in exp2result object.
+
+
+Observation:
+
+•	Based on the f-score values, Experiment 9 (f-score =77.11)is the most effective method with highest accuracy. This could also indicate that the newly selected dataset is more relevant for classification. 
+
+•	Experiment 8 is closely following (with an f-score value on 73.17) with second best accuracy. 
+It could be related to the word length selection and term frequency values because in both experiments 8 and 9, only those terms which are at least 4 characters in length and occurring in at least 20 documents are selected for creating the document term matrix. 
+
+•	From Experiments 6,7 and 8, where the minimum word length is set as 4, but the term frequency is varied, we can observe that with increasing term frequency, the f-score values makes a steady increase.
+
+•	As shown in the table, Experiments 1 and 2 are least effective and there may be a correlation with the fact that the data is not preprocessed.
+
+
+
+
+
